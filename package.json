@@ -43,7 +43,6 @@
     "@babel/preset-typescript": "^7.13.0",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@shelf/jest-mongodb": "^1.2.4",
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
     "@types/helmet": "^4.0.0",
@@ -85,14 +84,11 @@
     "express-async-errors": "^3.1.1",
     "helmet": "^4.6.0",
     "joi": "^17.4.0",
-    "log4js": "^6.3.0",
-    "migrate-mongo": "^8.2.2",
-    "mongodb": "^3.6.11",
+    "log4js": "^6.4.1",
     "morgan": "^1.10.0",
     "reflect-metadata": "^0.1.13",
-    "swagger-ui-express": "^4.1.6",
-    "tsyringe": "^4.5.0",
-    "typeorm": "^0.2.32"
+    "swagger-ui-express": "^4.3.0",
+    "tsyringe": "^4.6.0"
   },
   "jest": {
     "globals": {
