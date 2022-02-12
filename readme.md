@@ -7,8 +7,6 @@
   <a href="#information_source-recommendations">Recommendations</a>&nbsp;&nbsp;&nbsp;
 </p>
 
-![](https://buzzlead.com.br/wp-content/uploads/2018/12/marketing-indicacao-boca-a-boca-ferramenta-buzzlead_logos-clientes-ingaia.png)
-
 ## :page_with_curl: Summary
 
 This repository is a template for a microservice with the standard that a Digital Rent squad.
@@ -37,19 +35,19 @@ Running project:
 - Clone the project:
 
   ```sh
-  $ git clone git@gitlab.ingaia.com.br:digital-rent/microservices/template-node.git
+  git clone git@gitlab.ingaia.com.br:digital-rent/microservices/template-node.git
   ```
 
 - Open folder:
 
   ```sh
-  $ cd template-node
+  cd template-node
   ```
 
 - Install all packages via YARN:
 
   ```sh
-  $ yarn
+  yarn
   ```
 
 - Configure .env
@@ -57,36 +55,16 @@ Running project:
 - Dev mode:
 
   ```sh
-  $ yarn dev
+  yarn dev
   ```
 
 - Build mode:
 
   ```sh
-  $ yarn build
+  yarn build
   ```
 
-# Migration MongoDB
-
-> [Documentação completa](https://www.npmjs.com/package/migrate-mongo)
-
-```sh
-npm run migrate create <descrição>
-```
-
-```sh
-npm run migrate status
-```
-
-```sh
-npm run migrate up
-```
-
-```sh
-npm run migrate down
-```
-
-## information_source: Recommendations
+## :information_source: Recommendations
 
 > [StopLight](https://stoplight.io/) - Config Swagger \
 > [VS Code](https://code.visualstudio.com/) - Editor Code
